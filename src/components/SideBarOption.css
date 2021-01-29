@@ -1,0 +1,29 @@
+.sidebar_option {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0px 10px;
+  cursor: pointer;
+  color: black;
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+}
+.sidebar_option > h3 {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 300;
+}
+.sidebar_option:hover,
+.sidebar_option:hover > h3,
+.sidebar_option--active,
+.sidebar_option--active > h3 {
+  background-color: blueviolet;
+  color: aqua;
+  font-weight: 700 !important;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.sidebar_option--close > h3 {
+  display: none;
+}

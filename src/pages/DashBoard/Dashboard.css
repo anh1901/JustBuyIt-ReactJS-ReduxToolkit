@@ -1,0 +1,7 @@
+.dashboard {
+  flex: 1;
+  background-color: whitesmoke;
+  height: 100vh;
+  padding-left: 160px;
+  padding-top: 30px;
+}

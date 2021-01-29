@@ -1,0 +1,13 @@
+.sidebar {
+  flex: 0.3;
+  max-width: 350px;
+  padding-right: 30px;
+  margin-right: 30px;
+  background-color: lavender;
+  color: black;
+  height: 100vh;
+  position: fixed;
+  top: 68px;
+  overflow: auto;
+  z-index: 1;
+}

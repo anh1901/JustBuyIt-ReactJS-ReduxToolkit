@@ -1,0 +1,40 @@
+.searchbar {
+  border: 1px solid black !important;
+  border-radius: 10px;
+  padding: 5px;
+  flex: 0.6;
+}
+.searchbar:hover {
+  border: 1px solid greenyellow !important;
+  border-radius: 10px;
+}
+.header {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 20px 2px #888888;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.header_left > h3 {
+  display: flex;
+}
+.header_middle {
+  display: flex;
+  align-items: center;
+  flex: 0.7;
+  padding: 10px;
+}
+.header_right {
+  display: flex;
+  padding-right: 20px;
+}
